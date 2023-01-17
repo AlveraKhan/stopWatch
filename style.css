@@ -1,0 +1,31 @@
+body{
+    text-align: center;
+}
+h1{
+    display: inline-block;
+    width: 100px;
+    background-color: black;
+    color: white;
+}
+button{
+    width: 100px;
+    height: 30px;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 10px;
+}
+.head{
+    color: black;
+    background-color: white;
+    width: 500px;
+    text-decoration: underline;
+}
+@media screen and (max-width: 500px) {
+    .head {
+      display: block;
+      text-align: left;
+    }
+    
+  }
+  
+    
